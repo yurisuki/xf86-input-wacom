@@ -33,3 +33,7 @@ Wacom One by Wacom S Pen eraser         id: 22  type: ERASER
 # Now, my main monitor is 1366x768, but you may have a different one. You can easily change it. Just look to it.
 xsetwacom --set "15" MapToOutput 1366x768+1366+0 >> ~/.bashrc # < yes, I'm putting it in bashrc, because that's a setting, which won't be remembered.
 ```
+
+How do I build it?:
+-------------------------
+[Here's a simple guide, but you can use package from your distro, and set these settings above in.](https://github.com/linuxwacom/xf86-input-wacom/wiki/Building-The-Driver)
